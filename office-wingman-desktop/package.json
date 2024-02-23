@@ -1,0 +1,19 @@
+{
+  "name": "office-wingman-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^29.0.1",
+    "electron-builder": "^24.12.0",
+    "electron-is-dev": "^3.0.1"
+  },
+  "type": "module"
+}
