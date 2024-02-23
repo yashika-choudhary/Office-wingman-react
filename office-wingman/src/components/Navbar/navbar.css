@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+ul{
+    list-style-type: none;
+    margin-left: 1rem;
+}
+
+li,a{
+    color: var(--primaryGreen);
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    margin-top: 1rem;
+
+}
+
+.logo{
+    margin: 1rem;
+}
+
+.navlink{
+    margin-top: 1rem;
+    display: flex;
+    align-items: end;
+}
+
+.navlink>img{
+    width: 10%;
+    height: 10%;
+    margin-right: 0.5rem;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-items_upper{
+    height: 80vh;
+}
+
+li:hover{
+    color: var(--secondaryGreen);
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
