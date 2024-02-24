@@ -1,0 +1,167 @@
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    background-color: transparent !important;
+    border-radius: 10px !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.css-1qjwa69 {
+    padding: 0.5rem 2rem !important;
+}
+
+.css-1e84g1j {
+    width: 70% !important;
+    left: 60% !important;
+}
+
+.table-subject {
+    width: 40%;
+}
+
+.table-heading {
+    font-weight: 600 !important;
+    font-family: "IBM Plex Sans", sans-serif !important;
+    font-size: 16px !important;
+}
+
+.table-data {
+    font-family: "IBM Plex Sans", sans-serif !important;
+    font-size: 16px !important;
+}
+
+.table-arrow {
+    width: 0%;
+}
+
+.box-content {
+    display: flex;
+    justify-content: end;
+}
+
+.collapse-content-right {
+    border-right: none !important;
+}
+
+.collapsed-content {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    border-right: 1.5px solid rgba(224, 224, 224, 1);
+    padding-right: 1rem;
+}
+
+button:hover {
+    color: var(--primaryBlack);
+}
+
+.btn {
+    color: var(--primaryGreen);
+}
+
+.btn1 {
+    color: red;
+}
+
+.btn2 {
+    color: darkcyan;
+}
+
+.modal-content {
+    background-color: var(--secondaryWhite);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.modal-content-flex {
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.modal-content-flex>h6 {
+    width: 7%;
+    color: var(--primaryGreen);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+
+}
+
+.modal-content>p{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.detail{
+    padding-top: 0.5rem;
+}
+
+.detail-content {
+    padding-left: 0.7rem;
+}
+
+.detail-head {
+    color: var(--primaryGreen);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+}
+
+.modal-content-bot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-content-bot>h3{
+    color: red;
+    font-size: 24px;
+}
+
+.action-btn{
+    display: flex;
+    width: 50%;
+    margin-top: 1rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.action-btn-no{
+    width: 50%;
+    background-color: var(--primaryBlack);
+    color: var(--primaryWhite);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.action-btn-yes{
+    width: 50%;
+    background-color: var(--primaryGreen);
+    color: var(--primaryWhite);
+    border-radius: 10px;
+}
+
+.action-btn-yes:hover{
+    background-color: var(--secondaryGreen);
+}
+
+.action-btn-no:hover{
+    background-color: lightgray;
+}
+
+ol{
+    list-style-type:decimal;
+    padding-left: 3rem;
+}
+
+li{
+    color: var(--primaryBlack);
+}
+
+li:hover{
+    color: var(--primaryBlack);
+}
