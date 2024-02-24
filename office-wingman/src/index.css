@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +10,7 @@ body{
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(to right, #ece9e6, #ffffff);
+  background: linear-gradient(to right, #f5f5f5, #ffffff);
 }
 
 @tailwind base;
