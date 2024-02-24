@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import MailReview from './content/mail/MailReview';
+import Meetings from './content/meetings/Meetings';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,7 +13,15 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: []
+    children: [{
+      path: `/mail-review`,
+      element: <MailReview />
+    },
+    {
+    path: `/meetings`,
+      element: <Meetings />
+    }
+  ]
   }
 ]);
 
