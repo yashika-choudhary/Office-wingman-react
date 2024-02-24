@@ -361,7 +361,6 @@ function Row({ key, row }) {
             >
                 <Fade in={openMeetingNotes}>
                     <ModalContent sx={style}>
-                        <div className="modal-content">
                             <Header heading="Meeting Notes" />
                             <div className="modal-content">
                                 <div className="modal-content-flex">
@@ -377,7 +376,6 @@ function Row({ key, row }) {
 
                                 </div>
                             </div>
-                        </div>
                     </ModalContent>
                 </Fade>
             </Modal>
