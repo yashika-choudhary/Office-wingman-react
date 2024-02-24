@@ -38,3 +38,7 @@
 .mail-content>p,.meet-content>p,.task-content>p{
     font-family: "IBM Plex Sans", sans-serif;
 }
+
+text{
+    font-family: "IBM Plex Sans", sans-serif !important;
+}

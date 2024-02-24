@@ -1,9 +1,9 @@
 
 
-function SheduleHeader() {
+function SheduleHeader({content}) {
     return (
         <div className="table-header">
-            Friday, February 23, 2024
+            {content}
         </div>
     )
 }
