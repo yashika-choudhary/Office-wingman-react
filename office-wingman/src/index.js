@@ -8,20 +8,26 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Dashboard from './content/dashboard/Dashboard';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [{
-      path: `/mail-review`,
-      element: <MailReview />
-    },
-    {
-    path: `/meetings`,
-      element: <Meetings />
-    }
-  ]
+    children: [
+      {
+        path:'/',
+        element:<Dashboard/>
+      },
+      {
+        path: `/mail-review`,
+        element: <MailReview />
+      },
+      {
+        path: `/meetings`,
+        element: <Meetings />
+      }
+    ]
   }
 ]);
 

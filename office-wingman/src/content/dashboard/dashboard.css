@@ -1,0 +1,40 @@
+.dashboard-content {
+    background-color: var(--secondaryWhite);
+    margin: 0rem 1rem 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    min-height: 20vh;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.dashboard-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-mail,.dashboard-meet,.dashboard-task{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.dashboard-mail,.dashboard-meet{
+    border-right: 1.5px solid rgba(224, 224, 224, 1);
+    padding: 1rem;
+    width: 30%;
+}
+
+.mail-content,.meet-content,.task-content{
+    padding-left: 0.5rem;
+}
+
+.mail-content>h3,.meet-content>h3,.task-content>h3{
+    color: var(--primaryGreen);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.mail-content>p,.meet-content>p,.task-content>p{
+    font-family: "IBM Plex Sans", sans-serif;
+}
